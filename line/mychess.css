@@ -6,7 +6,7 @@
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #090a11, #b21f1f, #08090c);
+            background: linear-gradient(135deg, #090a11, #5e5b5bff, #08090c);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -29,7 +29,7 @@
             background: linear-gradient(to right, #ff2600, #ffffff);
             background-clip: text;
             
-            -webkit-text-fill-color: transparent;
+            /* -webkit-text-fill-color: transparent; */
         }
         
         .subtitle {
@@ -60,7 +60,7 @@
             grid-template-rows: repeat(8, 1fr);
             width: 560px;
             height: 560px;
-            border: 10px solid #5d4037;
+            border: 10px solid hsla(14, 31%, 59%, 1.00);
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
         }
         
@@ -75,11 +75,11 @@
         }
         
         .light {
-            background-color: #f0d9b5;
+            background-color:white;
         }
         
         .dark {
-            background-color: #b58863;
+            background-color:#5e5b5bff;
         }
         
         .square.selected {
